@@ -1,0 +1,18 @@
+{
+  "cli": {
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "environment": "preview",
+      "developmentClient": false,
+      "env": {
+        "EXPO_PUBLIC_DOMAIN": "bazan-auto-leads.replit.app"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}

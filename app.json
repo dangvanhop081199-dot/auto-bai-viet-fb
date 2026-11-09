@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "BAZAN AUTO LEAD • Android",
+    "slug": "auto-bai-viet-fb",
+    "owner": "hopdangs-team",
+    "extra": {
+      "eas": { "projectId": "61751a0d-50bf-4774-a0ed-8fdce711a09c" }
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "bazan-mobile",
+    "userInterfaceStyle": "light",
+    "splash": { "image": "./assets/images/icon.png", "resizeMode": "contain", "backgroundColor": "#F8FAFC" },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": { "package": "vn.bazan.autolead" },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

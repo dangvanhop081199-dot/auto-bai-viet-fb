@@ -1,0 +1,13 @@
+packages:
+  - lib/api-client-react
+
+autoInstallPeers: false
+
+catalog:
+  '@tanstack/react-query': ^5.90.21
+  zod: 3.25.76
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - unrs-resolver
